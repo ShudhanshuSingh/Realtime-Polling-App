@@ -1,0 +1,50 @@
+{
+  "polls": [
+    {
+      "21408": {
+        "Question": "who will win?",
+        "Options": [
+          {
+            "label": "Option 1",
+            "votes": 12
+          },
+          {
+            "label": "Option 2",
+            "votes": 8
+          },
+          {
+            "label": "Option 3",
+            "votes": 10
+          },
+          {
+            "label": "Option 4",
+            "votes": 5
+          }
+        ]
+      }
+    },
+    {
+      "22221": {
+        "Question":"USA vs China?",
+        "Options": [
+          {
+            "label": "Option 1",
+            "votes": 5
+          },
+          {
+            "label": "Option 2",
+            "votes": 10
+          },
+          {
+            "label": "Option 3",
+            "votes": 10
+          },
+          {
+            "label": "Option 4",
+            "votes": 5
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "Options":[{
+        "label": "Option 1",
+        "votes": 12
+    },{
+        "label": "Option 2",
+        "votes": 8
+    },{
+        "label": "Option 3",
+        "votes": 10
+    },{
+        "label": "Option 4",
+        "votes": 5
+    }]
+}

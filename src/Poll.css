@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+.votedOrNot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100%;
+}
+
+.poll {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 1;
+}
+
+.pollHeader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+}
+.pollHeader > h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+}
+
+.votePoll {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  flex-direction: column;
+  background-color: white;
+  height: 500px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid #461a42;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.votePoll > h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+}
+
+.optionForm > button {
+  margin: 8px 5px 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #6c4298;
+  color: white;
+  min-width: 200px;
+  width: fit-content;
+  border-bottom: 4px solid #6c4298;
+  transition: background-color 0.5s;
+  font-family: "Quicksand", sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  transition: border-bottom 0.2s, background-color 0.3s;
+}
+
+.optionForm > button:hover {
+  background-color: #a076cc;
+  cursor: pointer;
+}
+.optionForm > button:active {
+  border-bottom: 0px solid #8854c0;
+}
+
+.optionForm {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  font-family: "Quicksand", sans-serif;
+}
+.pollFooter {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pollFooter > button {
+  margin: 8px 5px 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #8854c0;
+  color: white;
+  width: 100px;
+  border-bottom: 4px solid #6c4298;
+  transition: background-color 0.5s;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+.pollFooter > button:hover {
+  background-color: #a076cc;
+  cursor: pointer;
+}
+.pollFooter > button:active{
+  border: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .votedOrNot {
+    width: 100%;
+  }
+}

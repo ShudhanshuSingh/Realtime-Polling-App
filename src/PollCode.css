@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+.pollCode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 150px;
+  margin: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.pollInput {
+  display: flex;
+  background-color: #f9f9f9;
+  margin: 50px;
+  width: 500px;
+  height: fit-content;
+  border-radius: 20px;
+  border: 2px solid #c4c4c4;
+  font-family: "Quicksand", sans-serif;
+}
+.inputBox {
+  margin: 6px;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.2);
+  flex: 1;
+}
+.inputBox > input {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3d343a;
+}
+.pollInput > img {
+  object-fit: contain;
+  margin: 10px;
+}
+.pollInput > button {
+  margin: 8px 5px 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #8854c0;
+  color: white;
+  width: 60px;
+  border-bottom: 4px solid #6c4298;
+  transition: background-color 0.5s;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+.pollInput > button:hover {
+  background-color: #a076cc;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .pollCode {
+    width: 100vw;
+    margin: 0;
+  }
+}

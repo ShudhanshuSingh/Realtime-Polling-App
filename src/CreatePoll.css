@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+.create {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.createPoll {
+  display: flex;
+  flex-direction: column;
+  /* width: 1200px; */
+  width: 100%;
+  background-color: white;
+  height: 500px;
+  margin: 20px;
+  border-radius: 20px;
+
+  border: 2px solid #461a42;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.pollQuestion {
+  display: flex;
+  justify-content: center;
+}
+.pollQuestion .inputBox {
+  /* border: 2px solid #EC0B43; */
+  border: 2px solid #8854c0;
+}
+.inputBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  max-width: 600px;
+  height: fit-content;
+  background-color: #f4f4f5;
+  flex: 1;
+  border: 2px solid #a4a4a4;
+}
+.inputBox > input {
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: medium;
+  font-family: "Quicksand", sans-serif;
+
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  color: #3d343a;
+  box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.2);
+}
+.Options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.left {
+  display: flex;
+  width: 100%;
+
+  flex: 1;
+  padding: 10px;
+}
+.right {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+
+  flex: 1;
+}
+
+.createPoll > h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: small;
+  margin-left: auto;
+  margin-right: auto;
+}
+.createPoll > h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: larger;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button > button {
+  margin: 8px 20px 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #8854c0;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border-bottom: 4px solid #6c4298;
+  transition: background-color 0.5s;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+.button > button:hover {
+  background-color: #a076cc;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+.inputBox input:focus {
+  border: 2px solid #4cd838;
+}
+.button button:active {
+  border-bottom: 0px solid #8854c0;
+}
+.pollInfo {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid #461a42;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.copyLink > button {
+  margin: 8px 5px 10px 0;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #8854c0;
+  color: white;
+  width: fit-content;
+  padding: 20px;
+  height: fit-content;
+  border-bottom: 4px solid #6c4298;
+  transition: background-color 0.5s;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+.copyLink > button:hover {
+  background-color: #a076cc;
+  cursor: pointer;
+}
+.copyLink > button:active {
+  border: 0;
+}
+.copyLink {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qrCode{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
