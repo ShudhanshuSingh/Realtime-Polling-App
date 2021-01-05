@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
 
 .pollCode {
+  z-index: 5;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,6 +12,7 @@
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+
 }
 
 .pollInput {
@@ -21,6 +24,8 @@
   border-radius: 20px;
   border: 2px solid #c4c4c4;
   font-family: "Quicksand", sans-serif;
+  z-index: 5;
+
 }
 .inputBox {
   margin: 6px;
@@ -30,6 +35,8 @@
   background-color: white;
   box-shadow: inset 0 0 5px 0px rgba(0, 0, 0, 0.2);
   flex: 1;
+  z-index: 5;
+
 }
 .inputBox > input {
   border: none;

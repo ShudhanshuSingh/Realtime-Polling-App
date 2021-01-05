@@ -5,6 +5,8 @@
   align-items: center;
   width: 50vw;
   height: 100%;
+  z-index: 5;
+
 }
 
 .poll {
@@ -17,6 +19,7 @@
   padding-left: 10px;
   padding-right: 10px;
   flex: 1;
+  z-index: 5;
 }
 
 .pollHeader {
@@ -27,6 +30,7 @@
   width: fit-content;
   justify-content: center;
   align-items: center;
+  z-index: 5;
 }
 .pollHeader > h2 {
   font-family: "Source Sans Pro", sans-serif;

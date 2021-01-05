@@ -18,6 +18,8 @@
 
   border: 2px solid #461a42;
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+
 }
 .pollQuestion {
   display: flex;

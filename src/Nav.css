@@ -1,0 +1,36 @@
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.app-logo{
+    position: fixed;
+    left: 10px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.nav-features{
+    flex: 0.2;
+    position: fixed;
+    right: 10px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-around;
+}
+.back-arrow{
+    position: fixed;
+    left: 10px;
+    width: 30px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.back-arrow:hover{
+    cursor: pointer;
+    background-color:lightgray ;
+    border-radius: 20px;
+}
