@@ -53,9 +53,12 @@ function CreatePoll() {
           votes: votes,
         })
       );
-    }
-    else{
-      alert("Please enter a Question and atleast an answer for Question to create the POLL.")
+      localStorage.setItem(randomCode, "voted");
+      console.log(localStorage + 'created' + code)
+    } else {
+      alert(
+        "Please enter a Question and atleast an answer for Question to create the POLL."
+      );
     }
   };
 
