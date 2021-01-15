@@ -9,8 +9,8 @@ function Nav({backbutton}) {
     const moveBack = () =>{
         history.goBack();
     }
-    const logoClick = () =>{
-        history.push("/");
+    const moveToAbout = () =>{
+        history.push("/about");
     }
     return (
         <div className="nav-bar">
@@ -27,7 +27,7 @@ function Nav({backbutton}) {
                 )
             }
             <div className="nav-features">
-            <button className="nav-button">
+            <button className="nav-button" onClick={moveToAbout}>
                 <h3>About</h3>
             </button>
             </div>

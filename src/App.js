@@ -9,6 +9,7 @@ import { createBrowserHistory } from "history";
 import CheckPollCode from "./CheckPollCode";
 import Nav from "./Nav";
 import WordCloud from "./WordCloud";
+import About from "./About";
 
 function App() {
   const history = createBrowserHistory();
@@ -39,6 +40,11 @@ function App() {
           </Route>
           <Route path="/wordcloud">
             <WordCloud />
+          </Route>
+          <Route path="/about">
+          <Nav backbutton="/" />
+
+            <About />
           </Route>
           <Route path="/">
             <Nav />
