@@ -1,8 +1,8 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import db from "./firebase";
+import db from "../../firebase";
 import { useParams } from "react-router-dom";
-import Poll from "./Poll";
+import Poll from "../Poll/Poll";
 
 function CheckPollCode() {
   const [allPollCode, setAllPollCode] = React.useState([]);

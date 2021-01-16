@@ -1,9 +1,9 @@
 import React from "react";
-import PollOptions from "./PollOptions";
+import PollOptions from "../PollOptions/PollOptions";
 import "./Poll.css";
-import db from "./firebase";
-import VotePoll from "./VotePoll";
+import db from "../../firebase";
 import { useHistory } from "react-router-dom";
+import VotePoll from "../VotePoll/VotePoll";
 
 function Poll({ codeId }) {
   const [options, setOptions] = React.useState([]);

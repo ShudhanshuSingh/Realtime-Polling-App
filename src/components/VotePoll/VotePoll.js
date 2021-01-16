@@ -1,7 +1,7 @@
 import React from "react";
 import "./VotePoll.css";
-import db from "./firebase";
 import firebase from "firebase";
+import db from "../../firebase";
 function VotePoll({ label, optionId, code,voteOrNot}) {
   //   console.log(ans);
   //   localStorage.setItem("code", "21408");

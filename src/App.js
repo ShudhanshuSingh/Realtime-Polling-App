@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import PollCode from "./PollCode";
-import CreatePoll from "./CreatePoll";
-
 import { Router, Switch, Route } from "react-router-dom";
 // import createBrowserHistory from 'history/createBrowserHistory';
 import { createBrowserHistory } from "history";
-import CheckPollCode from "./CheckPollCode";
-import Nav from "./Nav";
-import WordCloud from "./WordCloud";
-import About from "./About";
+import About from "./components/About/About";
+import CheckPollCode from "./components/CheckPollCode/CheckPollCode";
+import CreatePoll from "./components/CreatePoll/CreatePoll";
+import Nav from "./components/Nav/Nav";
+import PollCode from "./components/PollCode/PollCode";
+import WordCloud from "./components/WordCloud/WordCloud";
+
 
 function App() {
   const history = createBrowserHistory();

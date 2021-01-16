@@ -1,6 +1,6 @@
 import React from "react";
 import "./CreatePoll.css";
-import db from "./firebase";
+import db from "../../firebase";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 function CreatePoll() {
