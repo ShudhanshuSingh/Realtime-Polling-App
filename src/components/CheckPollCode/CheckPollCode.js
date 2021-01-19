@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import db from "../../firebase";
 import { useParams } from "react-router-dom";
 import Poll from "../Poll/Poll";
+import CloudDisplay from "../CloudDisplay/CloudDisplay";
 
 function CheckPollCode() {
   const [allPollCode, setAllPollCode] = React.useState([]);
@@ -15,7 +16,11 @@ function CheckPollCode() {
   return (
     <div className="checkPollCode">
       {allPollCode.includes(pollId) ? (
+        pollId.includes("W")?(
+          <CloudDisplay codeId={pollId}/>
+        ):(
         <Poll codeId={pollId} />
+        )
       ) : (
         <h3>Its seems you entered wrong code</h3>
       )}

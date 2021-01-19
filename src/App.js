@@ -46,6 +46,7 @@ function App() {
             <Nav backbutton="/" />
             <WordCloud />
           </Route>
+          
           <Route path="/about">
             <Nav backbutton="/" />
 
