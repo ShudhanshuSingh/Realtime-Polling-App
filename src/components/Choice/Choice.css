@@ -1,0 +1,33 @@
+.choice {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.choose {
+  width: 600px;
+  height: 400px;
+  border: 2px solid #461a42;
+  background-color: #FFFFFF;
+
+  margin-left: 5px;
+  border-radius: 20px;
+  transition: transform .5s;
+  color: black;
+}
+.vote-poll {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word-cloud > img {
+  height: 300px;
+  object-fit: contain;
+}
+.choose:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

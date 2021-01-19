@@ -41,8 +41,8 @@
 .inputBox > input {
   border: none;
   outline: none;
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
   font-size: 20px;
   font-weight: 500;
   color: #3d343a;

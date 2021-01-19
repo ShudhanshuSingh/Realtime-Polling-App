@@ -9,7 +9,7 @@ import CreatePoll from "./components/CreatePoll/CreatePoll";
 import Nav from "./components/Nav/Nav";
 import PollCode from "./components/PollCode/PollCode";
 import WordCloud from "./components/WordCloud/WordCloud";
-
+import Choice from "./components/Choice/Choice";
 
 function App() {
   const history = createBrowserHistory();
@@ -19,7 +19,7 @@ function App() {
   };
   const createClick = (e) => {
     e.preventDefault();
-    history.push("/create");
+    history.push("/choice");
   };
 
   return (
@@ -34,15 +34,20 @@ function App() {
             <Nav backbutton="/" />
             <CreatePoll />
           </Route>
+          <Route path="/choice">
+            <Nav backbutton="/" />
+            <Choice />
+          </Route>
           <Route path="/join">
             <Nav backbutton="/" />
             <PollCode />
           </Route>
           <Route path="/wordcloud">
+            <Nav backbutton="/" />
             <WordCloud />
           </Route>
           <Route path="/about">
-          <Nav backbutton="/" />
+            <Nav backbutton="/" />
 
             <About />
           </Route>
