@@ -98,7 +98,7 @@ function CreatePoll() {
               <button>{`https://polls-3a0cb.web.app/join/${code}`}</button>
             </CopyToClipboard>
             {copy ? (
-              <h3>Link Copied</h3>
+              <h3>Link Copied</h3> 
             ) : (
               <h3>Click above button to copy Link </h3>
             )}
